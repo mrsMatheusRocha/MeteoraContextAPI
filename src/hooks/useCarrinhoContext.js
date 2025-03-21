@@ -13,7 +13,7 @@ const removeProdutoAction = (produtoId) => ({
 })
 
 const updateProdutoAction = (produtoId, quantidade) => ({
-  type: UPDATE_PRODUTO,
+  type: UPDATE_QUANTIDADE,
   payload: {produtoId, quantidade},
 })
 
