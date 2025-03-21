@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { CarrinhoContext } from "@/context/CarrinhoContext";
-import { ADD_PRODUTO, REMOVE_PRODUTO, UPDATE_QUANTIDADE } from "@/components/reducers/CarrinhoReducer";
+import { ADD_PRODUTO, REMOVE_PRODUTO, UPDATE_QUANTIDADE } from "@/components/reducers/carrinhoReducer";
 
 const addProdutoAction = (novoProduto) => ({
   type: ADD_PRODUTO,
